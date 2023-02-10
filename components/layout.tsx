@@ -12,6 +12,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta property="og:image" content="/images/logo1.png" />
       <meta
         name="description"
         content="Now Lundaa Bazar is going to online soon"
@@ -21,7 +22,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         property="og:description"
         content="Now Lundaa Bazar is going to online soon"
       />
-      <meta property="og:url" content="https://www.lundaabazar.com/" />
+      <meta property="og:url" content="https://lundaabazar.com/" />
       <meta property="og:type" content="website" />
     </Head>
     {children}
