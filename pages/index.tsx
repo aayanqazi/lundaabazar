@@ -2,7 +2,7 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import Image from "next/image";
 const IndexPage = () => (
-  <Layout title="Lundaa Baza Online">
+  <Layout title="Lundaa Bazar Online">
     <Image
       alt="shapes"
       className="absolute w-full left-24 bottom-24 animate-blob2"
